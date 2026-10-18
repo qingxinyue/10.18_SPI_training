@@ -36,6 +36,8 @@ add_executable(${CMAKE_PROJECT_NAME}
         UserCode/callback.cpp
         UserCode/IMU.cpp
         UserCode/IMU.hpp
+        UserCode/bmi088.cpp
+        UserCode/bmi088.hpp
 )
 
 # Add STM32CubeMX generated sources

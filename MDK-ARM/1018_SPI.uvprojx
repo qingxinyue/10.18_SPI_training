@@ -535,6 +535,11 @@
               <FileType>8</FileType>
               <FilePath>..\UserCode\callback.cpp</FilePath>
             </File>
+            <File>
+              <FileName>bmi088.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\UserCode\bmi088.cpp</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
