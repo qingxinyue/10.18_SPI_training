@@ -1,0 +1,112 @@
+# Build directories
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+CMakeUserPresets.json
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# IDE local settings
+.vscode/
+.idea/
+.cache/
+.clangd/
+
+# Keil build output directories
+/MDK-ARM/Objects/
+/MDK-ARM/Listings/
+/MDK-ARM/DebugConfig/
+/MDK-ARM/.MDK-ARM/
+
+# Keil local options and session files
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+*.scvd
+*.iex
+*.user
+
+# RTE version backups
+*.base@*
+
+# Compiled objects and firmware
+*.o
+*.obj
+*.d
+*.dep
+*.elf
+*.axf
+*.hex
+*.bin
+*.crf
+*.map
+*.lnp
+*.lst
+*.__i
+*.i
+
+# Keil generated build reports
+/MDK-ARM/*.htm
+/MDK-ARM/**/*.build_log.htm
+/MDK-ARM/**/*.htm
+# Temporary files and backups
+*.bak
+*.Bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local Git status export
+/gitstatus.txt
+
+/MDK-ARM/DebugConfig/
+/MDK-ARM/Objects/
+/MDK-ARM/Listings/
+/MDK-ARM/LED/
+
+# Local CMake settings and compilation database
+CMakeUserPresets.json
+compile_commands.json
+
+# Generated build directories
+/build/
+/cmake-build-*/
+/MDK-ARM/10.3training/
+
+# Unused vendor documentation and examples
+/Drivers/CMSIS/Documentation/
+/Drivers/CMSIS/DSP/Examples/
+/Drivers/CMSIS/NN/Examples/
+
+# Logs, backups and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~
+Thumbs.db
+.DS_Store
+
+# Preserve build definitions and license texts
+!CMakeLists.txt
+!LICENSE.txt
+!LICENSE*.txt
